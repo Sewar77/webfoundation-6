@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <form>
+        <h2>User Information</h2>
+        <div>
+          <label for="userName">Name</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            required
+            placeholder="Enter Your Full Name"
+            minlength="3"
+            maxlength="20"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="8"
+            maxlength="150"
+          />
+        </div>
+        <div>
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" name="phoneNumber" id="phoneNumber" />
+        </div>
+        <div>
+          <label for="">Birth Date</label>
+          <input type="date" name="" id="" />
+          <input type="datetime-local" name="" id="" />
+        </div>
+        <div>
+          <label for="color">Favorite Color</label>
+          <input type="color" name="color" id="color" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" required min="15" max="50" />
+        </div>
+
+        <div>
+          <span>Gender</span>
+
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" checked />
+
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+        </div>
+
+        <div>
+          <label for="hoppy">Hoppies</label>
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            value="football"
+            checked
+          />football
+          <input type="checkbox" name="" id="" value="reading" />reading
+          <input type="checkbox" name="" id="" value="writting" />writting
+        </div>
+
+        <div>
+          <label for="">Country</label>
+          <select name="" id="">
+            <option value="jo">jordan</option>
+            <option value="eg">egypt</option>
+            <option value="lbn" selected>lebanon</option>
+            <option value="ksa">saudei arabia</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Subjects</label>
+          <select multiple name="" id="">
+            <option value="">cs</option>
+            <option value="">cis</option>
+            <option value="">cys</option>
+            <option value="">byt</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="">Please leave us FEEDBACK:</label>
+          <textarea name="" id="" rows="6"></textarea>
+        </div>
+
+        <div>i</div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
